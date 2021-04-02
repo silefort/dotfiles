@@ -29,3 +29,17 @@ The .gitignore file contains a *, this means that it ignores everything unless e
   dotfiles commit
   dotfiles push # You may need to add -u origin main the first time you push
   ```
+  
+## Pratice Journal
+
+Here are the things I am/want/should work on to improve my workflow:
+
+### Current goals
+
+### Annoyed with
+
+### Researching
+
+### Experimenting with
+
+### Working on
