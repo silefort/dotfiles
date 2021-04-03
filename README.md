@@ -35,11 +35,23 @@ The .gitignore file contains a *, this means that it ignores everything unless e
 Here are the things I am/want/should work on to improve my workflow:
 
 ### Current goals
+* Declutter my dotfiles, and starting them again from scratch
 
 ### Annoyed with
+* Not remembering why I added this snippet of code in one of my dotfiles
+* Adding things that I never use in my dotfiles
 
 ### Researching
 
-### Experimenting with
+### Experimenting with (things that are not integrated into my workflow but I am practicing to know if I should integrate them)
+* Using git conventional commits
+* Using git commits to document my choices and why I added/removed something from my dotfiles and why
 
-### Working on
+### Backlog
+* Use Vim Plug instead of Pathogen as my Vim Plugin manager
+* command! Config execute ":e $MYVIMRC"
+* command! Reload execute "source ~/.vimrc"
+* command! Filename execute ":echo expand('%:p')" # Don't seems to be really useful
+* Create a vn alias like "vim new" to try my new vim setup
+* Use fzf + Rg and Blines (https://www.youtube.com/watch?v=x8uleL9j5lY&list=WL&index=88)
+* Lazygit
