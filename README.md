@@ -53,5 +53,5 @@ Here are the things I am/want/should work on to improve my workflow:
 * command! Reload execute "source ~/.vimrc"
 * command! Filename execute ":echo expand('%:p')" # Don't seems to be really useful
 * Create a vn alias like "vim new" to try my new vim setup
-* Use fzf + Rg and Blines (https://www.youtube.com/watch?v=x8uleL9j5lY&list=WL&index=88)
+* Use fzf + Rg and Blines (https://www.youtube.com/watch?v=x8uleL9j5lY)
 * Lazygit
