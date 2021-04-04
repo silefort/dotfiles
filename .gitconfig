@@ -4,4 +4,9 @@
 [status]
   showUntrackedFiles = all
 [alias]
-  lg = log --graph   --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s   %Cgreen(%an %ar)%Creset'
+  # Command shortcuts
+  ci = commit
+  st = status
+
+  # Print a nice tree-like log
+  lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s   %Cgreen(%an %ar)%Creset'
