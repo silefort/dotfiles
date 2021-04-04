@@ -5,3 +5,7 @@ alias dotfiles='git --work-tree=$HOME --git-dir=$HOME/.dotfiles/'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
+
+# cd parents dir faster
+alias ..='cd ..'
+alias ...='cd ../..'
