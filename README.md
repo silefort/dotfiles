@@ -55,3 +55,5 @@ Here are the things I am/want/should work on to improve my workflow:
 * Create a vn alias like "vim new" to try my new vim setup
 * Use fzf + Rg and Blines (https://www.youtube.com/watch?v=x8uleL9j5lY)
 * Lazygit
+* Use the vi settings in my shell
+* test the fish shell
