@@ -58,3 +58,4 @@ Here are the things I am/want/should work on to improve my workflow:
 * Lazygit
 * Use the vi settings in my shell
 * test the fish shell
+* test vifm
