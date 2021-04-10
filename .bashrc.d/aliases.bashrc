@@ -6,10 +6,12 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# cd parents dir faster
+# Navigation shortcuts
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ls='ls -GFlrt'
+alias la='ls -ad .*'
 
-# jrnl aliases
+# Jrnl aliases
 alias jn='"$JRNL_DIR"/script.sh && jrnl -2 --edit'
 alias jw='jrnl < "$JRNL_DIR"/weekly.txt && jrnl -1 --edit'
