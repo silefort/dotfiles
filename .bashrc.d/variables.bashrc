@@ -1,0 +1,2 @@
+GDRIVE_DIR=~/Google\ Drive
+JRNL_DIR=$GDRIVE_DIR/Jrnl
