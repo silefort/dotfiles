@@ -2,6 +2,13 @@
 
 This setup is used to store, sync and share my dotfiles across my different machines
 
+## Dependencies
+
+### Brew
+
+* fzf
+* exa
+
 ## How To
 
 ### First Installation on a new computer
