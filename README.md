@@ -51,9 +51,9 @@ Here are the things I am/want/should work on to improve my workflow:
 ### Researching
 
 ### Experimenting with (things that are not integrated into my workflow but I am practicing to know if I should integrate them)
-* Using git conventional commits
 * Using git commits to document my choices and why I added/removed something from my dotfiles and why
 * Using git st and git ci aliases
+* Using ctrl +x +e to edit a bash command line in vim
 
 ### Backlog
 * Use Vim Plug instead of Pathogen as my Vim Plugin manager
