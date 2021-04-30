@@ -9,7 +9,7 @@ alias rm='rm -i'
 # Navigation shortcuts
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ls='exa --long --header --git'
+alias ls='exa --long --header --git -snew'
 alias la='ls -ad .*'
 
 # Jrnl aliases
