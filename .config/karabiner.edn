@@ -1,0 +1,30 @@
+;; Karabiner recognizes my keyboard as a qwerty keyboard, hence all rules are "hardcoded" using a qwerty layout
+{ :simlayers {
+    :navigation_mode { :key :a} ;; hold q for navigation mode
+    :numbers_mode { :key :s}    ;; hold s for number mode
+  }
+
+  :main [
+  {:des "navigation_layer"
+    :rules [[:condi :navigation_mode]
+      [:j :left_arrow]                ;; j for left
+      [:k :down_arrow]                ;; k for down
+      [:l :up_arrow]                  ;; l for up 
+      [:semicolon :right_arrow]       ;; m for right
+    ]
+  }
+  {:des "numbers_layer"
+    :rules [[:condi :numbers_mode]
+      [:slash     :!S0]       ;; = for 0
+      [:m         :!S1]       ;; , for 1
+      [:comma     :!S2]       ;; ; for 2
+      [:period    :!S3]       ;; : for 3
+      [:j         :!S4]       ;; j for 4
+      [:k         :!S5]       ;; k for 5
+      [:l         :!S6]       ;; l for 6
+      [:u         :!S7]       ;; u for 7
+      [:i         :!S8]       ;; i for 8
+      [:o         :!S9]       ;; p for 9
+    ]
+  }]
+}
