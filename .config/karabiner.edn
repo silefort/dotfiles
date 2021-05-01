@@ -26,5 +26,8 @@
       [:i         :!S8]       ;; i for 8
       [:o         :!S9]       ;; p for 9
     ]
+  }
+  {:des "left_shift is delete a word if alone"
+    :rules [[:left_shift :left_shift nil {:alone :!Odelete_or_backspace}]]
   }]
 }
