@@ -65,6 +65,7 @@
       [:close_bracket :!Sclose_bracket]
       [:quote :!Squote]
       [:semicolon :!Ssemicolon]
+      [:tab :!Stab]
     ]
   }
   {:des "shift_right_mode"
@@ -106,6 +107,7 @@
       [:close_bracket :!Rclose_bracket]
       [:quote :!Rquote]
       ;;[:semicolon :!Rsemicolon] ;; Remove the real m from the liste
+      [:tab :!Rtab]
     ]
   }
   {:des "control_left_mode"
@@ -147,6 +149,7 @@
       [:close_bracket :!Tclose_bracket]
       [:quote :!Tquote]
       [:semicolon :!Tsemicolon]
+      [:tab :!Ttab]
     ]
   }
   {:des "control_right_mode"
@@ -188,6 +191,7 @@
       [:close_bracket :!Wclose_bracket]
       [:quote :!Wquote]
       [:semicolon :!Wsemicolon]
+      [:tab :!Wtab]
     ]
   }
   {:des "option_left_mode"
@@ -229,6 +233,7 @@
       [:close_bracket :!Oclose_bracket]
       [:quote :!Oquote]
       [:semicolon :!Osemicolon]
+      [:tab :!Otab]
     ]
   }
   {:des "option_right_mode"
@@ -270,6 +275,7 @@
       [:close_bracket :!Eclose_bracket]
       [:quote :!Equote]
       [:semicolon :!Esemicolon]
+      [:tab :!Etab]
     ]
   }
   {:des "cmd_left_mode"
@@ -311,6 +317,7 @@
       [:close_bracket :!Cclose_bracket]
       [:quote :!Cquote]
       [:semicolon :!Csemicolon]
+      [:tab :!Ctab]
     ]
   }
   {:des "cmd_right_mode"
