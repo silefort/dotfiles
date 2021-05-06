@@ -61,6 +61,7 @@
     :option_right_mode {:key :k} ;; hold k for option right
     :cmd_left_mode {:key :f} ;; hold f for cmd left
     :cmd_right_mode {:key :j} ;; hold j for cmd right
+    :numpad_mode {:key :v} ;; hold v for numpad mode
   }
 
   :main [
@@ -397,6 +398,27 @@
       [:close_bracket :!Qclose_bracket]
       [:quote :!Qquote]
       [:semicolon :!Qsemicolon]
+      [:tab :!Qtab]
+    ]
+  }
+  {:des "numbers_layer"
+    :rules [[:condi :numpad_mode]
+      [:j             :!S0]       ;; = for 0
+      [:k             :!S1]       ;; , for 1
+      [:l             :!S2]       ;; ; for 2
+      [:semicolon     :!S3]       ;; : for 3
+      [:quote         :!S4]       ;; j for 4
+      [:u             :!S5]       ;; k for 5
+      [:i             :!S6]       ;; l for 6
+      [:o             :!S7]       ;; u for 7
+      [:p             :!S8]       ;; i for 8
+      [:open_bracket  :!S9]       ;; p for 9
+      [:h             :!Scomma]
+      [:m             :!Sslash]
+      [:comma         :keypad_hyphen]
+      [:period         :!Sclose_bracket]
+      [:slash         :!Speriod]
+      [:n         :slash]
     ]
   }
   {:des "navigation_layer"
@@ -405,20 +427,6 @@
       [:k :down_arrow]                ;; k for down
       [:l :up_arrow]                  ;; l for up 
       [:semicolon :right_arrow]       ;; m for right
-    ]
-  }
-  {:des "numbers_layer"
-    :rules [[:condi :numbers_mode]
-      [:slash     :!S0]       ;; = for 0
-      [:m         :!S1]       ;; , for 1
-      [:comma     :!S2]       ;; ; for 2
-      [:period    :!S3]       ;; : for 3
-      [:j         :!S4]       ;; j for 4
-      [:k         :!S5]       ;; k for 5
-      [:l         :!S6]       ;; l for 6
-      [:u         :!S7]       ;; u for 7
-      [:i         :!S8]       ;; i for 8
-      [:o         :!S9]       ;; p for 9
     ]
   }
   {:des "left_shift is delete a word if alone"
