@@ -10,3 +10,6 @@
 
   # Print a nice tree-like log
   lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s   %Cgreen(%an %ar)%Creset'
+
+[pull]
+	rebase = false
